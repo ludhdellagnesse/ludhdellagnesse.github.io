@@ -8,12 +8,12 @@ function MostrarCampoPesquisar(){
 }
 // objetos + array
 projeto1 = {
-    titulo: 'calculadora' ,
+    titulo: 'Calculadora' ,
     descricao : 'Projeto desenvolvido utilizando javascrip, htmnl e css de uma calculadora de média simples.' ,
     foto: 'calculadora.png'
 }
 projeto2 = {
-    titulo: 'conversor' ,
+    titulo: 'Conversor' ,
     descricao: 'Projeto desenvolvido utilizando javascrip, htmnl e css de um conversor de moedas entre dólar e Real.' ,
     foto: 'conversor-moedas.png'
 }
@@ -30,7 +30,7 @@ function ProximoProjeto(){
     titulo.innerHTML = projetos[projetoAtual].titulo
 
     descricao = document.querySelector('.texto-corpo')
-    descricao.innerHTML = projetosDescricao[projetoAtual].descricao
+    descricao.innerHTML = projetos[projetoAtual].descricao
 
     imagem = document.querySelector('.foto-perfil')
     imagem.src= "images/" + projetos[projetoAtual].foto
